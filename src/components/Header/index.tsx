@@ -9,7 +9,7 @@ export default function Header() {
         src="/images/logo.svg"
         alt="logo"
         onClick={() => {
-          router.push('/');
+          router.push('/', {}, {});
         }}
       />
     </div>
